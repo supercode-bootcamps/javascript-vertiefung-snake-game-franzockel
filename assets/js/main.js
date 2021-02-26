@@ -50,7 +50,7 @@ let redBoxTimerInterval = 3000;
 var redBoxTimer = setInterval(redBox, redBoxTimerInterval);
 
 function redBox() {
-  let redBoxIndex = Math.floor(Math.random() * 100);
+  let redBoxIndex = Math.floor(Math.random() * 100) + 1;
   document.querySelector(
     ".item:nth-of-type(" + redBoxIndex + ")"
   ).style.backgroundColor = "red";
