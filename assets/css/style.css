@@ -1,17 +1,27 @@
-*{
-    box-sizing: border-box;
-}
-#snakeField{
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    margin: auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.item{
-    background-color: lightblue;
-    border: 2px solid blue;
-    height: 50px;
-    width: 10%;
-    border-radius: 5px;
+#snakeField {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+}
+
+.item {
+  background-color: lightblue;
+  border: 2px solid blue;
+  height: 50px;
+  width: 10%;
+  border-radius: 5px;
+}
+
+.gameOverScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
